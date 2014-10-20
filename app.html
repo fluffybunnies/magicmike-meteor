@@ -1,0 +1,43 @@
+<head>
+	<title>Meteor</title>
+</head>
+
+<body>
+
+<div class="page">
+
+	<div class="navbar navbar-static-top navbar-inverse">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="/">Meteor</a>
+				<ul class="nav pull-right">
+					<li>
+						{{>loginButtons}}
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="container-fluid" id="main">
+		<div class="row">
+			<div class="col-md-12">
+				{{>MagicMike}}
+			</div>
+		</div>
+	</div>
+
+</div>
+
+</body>
+
+<template name="MagicMike">
+	<div class="magic-mike">
+		<div class="bubble {{#if speech}}{{else}}ng-hide{{/if}}">
+			<div class="bubble-inner">
+				<div class="bubble-text">{{speech}}</div>
+			</div>
+		</div>
+		<img class="mike" src="img/mike.jpg" alt="" />
+	</div>
+</template>

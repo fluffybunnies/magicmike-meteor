@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "cool-ascii-faces": {
+      "version": "1.3.3",
+      "dependencies": {
+        "stream-spigot": {
+          "version": "3.0.4",
+          "dependencies": {
+            "readable-stream": {
+              "version": "1.0.33-1",
+              "dependencies": {
+                "core-util-is": {
+                  "version": "1.0.1"
+                },
+                "isarray": {
+                  "version": "0.0.1"
+                },
+                "string_decoder": {
+                  "version": "0.10.31"
+                },
+                "inherits": {
+                  "version": "2.0.1"
+                }
+              }
+            },
+            "xtend": {
+              "version": "3.0.0"
+            }
+          }
+        }
+      }
+    }
+  }
+}
