@@ -17,7 +17,7 @@ $ meteor add meteorhacks:npm
 
 Then place your npm modules in a new packages.json file (note the "s").
 
-And change...
+In your application, change...
 ```javascript
 var myModule = require('my-module')
 ```
