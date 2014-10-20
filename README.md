@@ -3,7 +3,7 @@ magicmike-meteor
 
 ### Install
 ```
-$ meteor
+$ npm start
 ```
 Visit http://localhost:3000 in your browser
 
